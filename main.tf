@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "rg1t" {
+resource "azurerm_resource_group" "rg" {
     name = local.rg_name
     location = "westeurope"
 }
